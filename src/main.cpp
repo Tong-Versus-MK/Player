@@ -83,7 +83,7 @@ void loop()
     hit = 0;
   }
 
-  if(hp>10){
+  if(hp>=10){
     //OLED
     OLED.clearDisplay();
     OLED.setTextColor(WHITE, BLACK);
